@@ -1,0 +1,21 @@
+{
+  "name": "arifallahverdiev/small_mvc_engine",
+  "description": "Simple MVC engine",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Arif Allahverdiev",
+      "email": "cheaterby@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "php-di/php-di": "^6.4",
+    "ext-pdo": "*"
+  }
+}
